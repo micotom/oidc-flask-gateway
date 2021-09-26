@@ -1,0 +1,13 @@
+{
+    "web": {
+        "auth_uri": "http://localhost:8080/auth/realms/flask/protocol/openid-connect/auth",
+        "client_id": "oidc_gateway",
+        "client_secret": "da7f44d4-b28e-4b73-b4f2-7ff6973066f2",
+        "redirect_uris": [
+            "http://localhost:5000/oidc_callback"
+        ],
+        "userinfo_uri": "http://keycloak:8080/auth/realms/flask/protocol/openid-connect/userinfo",
+        "token_uri": "http://keycloak:8080/auth/realms/flask/protocol/openid-connect/token",
+        "token_introspection_uri": "http://localhost:8080/auth/realms/flask/protocol/openid-connect/token/introspect"
+    }
+}
